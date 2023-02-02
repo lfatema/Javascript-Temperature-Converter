@@ -1,0 +1,45 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #30356e;
+}
+
+.container {
+  /* height: 300px; */
+  width: 50%;
+  display: flex;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #eeb229;
+}
+
+#temp,
+#temp_diff {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+#submit {
+  color: #000;
+  background-color: #eeb229;
+  margin-top: 20px;
+  padding: 7px 20px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+#resultTemp {
+  margin-top: 20px;
+  font-size: 1.8rem;
+  color: #eeb229;
+}
